@@ -19,8 +19,4 @@ cd rtl8188eus
 sudo -i
 echo "blacklist r8188eu" > "/etc/modprobe.d/realtek.conf"
 sudo apt update
-cd rtl8188eus
-sudo make
-sudo make install
-sudo modprobe 8188eu
 sudo reboot
